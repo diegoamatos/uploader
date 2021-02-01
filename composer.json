@@ -1,0 +1,33 @@
+{
+  "name": "simpsyst/uploader",
+  "description": "It is a easy PHP upload manager for images, files and media in your application",
+  "keywords": [
+    "SimpSyst",
+    "Compusert",
+    "Diego Matos",
+    "upload",
+    "image upload",
+    "file upload",
+    "media upload"
+  ],
+  "homepage": "http://www.diegomatos.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Diego Matos",
+      "email": "oi@diegomatos.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-gd": "*",
+    "ext-mbstring": "*",
+    "ext-exif": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SimpSyst\\Uploader\\": "src"
+    }
+  }
+}
