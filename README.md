@@ -33,13 +33,13 @@ SimpSyst é um conjunto de pequenos e otimizados componentes PHP para tarefas co
 Uploader is available via Composer:
 
 ```bash
-"simpsyst/uploader": "1.0.*"
+"simpsyst/uploader": "dev-main"
 ```
 
 or run
 
 ```bash
-composer require simpsyst/uploader
+composer require simpsyst/uploader:dev-main
 ```
 
 ## Documentation
